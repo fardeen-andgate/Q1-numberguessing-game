@@ -1,10 +1,12 @@
 {
   "name": "fardeen-numgame",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Do or Die",
-  "main": "main.js",
+  "main": "index.js",
   "type": "module",
-  "bin": "main.js",
+  "bin": { 
+    "fardeen-numgame":"main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
